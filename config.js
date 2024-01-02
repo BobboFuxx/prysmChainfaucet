@@ -29,7 +29,7 @@ export default {
             tx: {
                 amount: {
                     denom: "upsm",
-                    amount: "10000000"
+                    amount: "20000000000000000000"
                 },
                 fee: {
                     amount: [
