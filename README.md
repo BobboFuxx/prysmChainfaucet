@@ -1,4 +1,5 @@
-# faucet
+# Prysm Testnet faucet
+https://faucet.prysm.network
 
 
 
@@ -23,5 +24,4 @@ v16.15.0
  
  
  
-# prysmfaucet
-https://faucet.prysm.network
+
