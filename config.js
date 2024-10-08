@@ -13,11 +13,11 @@ export default {
     },
     blockchains: [
         {
-            name: "prysm_100-1",
+            name: "prysm-devnet-1",
             endpoint: {
                 // make sure that CORS is enabled in rpc section in config.toml
                 // cors_allowed_origins = ["*"]
-                rpc_endpoint: " https://t-rpc.prysmchain.com",
+                rpc_endpoint: "https://prysm-rpc-devnet.kleomedes.network",
             },
             sender: {
                 mnemonic: "isolate ticket alpha private soda faculty runway across detail suspect industry over",
@@ -28,14 +28,14 @@ export default {
             },
             tx: {
                 amount: {
-                    denom: "upsm",
+                    denom: "uprysm",
                     amount: "20000000000000000000"
                 },
                 fee: {
                     amount: [
                         {
                             amount: "5000",
-                            denom: "upsm"
+                            denom: "uprysm"
                         }
                     ],
                     gas: "200000"
